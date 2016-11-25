@@ -1,0 +1,18 @@
+//aタグの疑似要素を統一
+//いちいち個別に指定するのが面倒なaタグの疑似クラスを一気に設定
+//@eachは値だけでなく疑似クラス名などにも使える一例
+$aPseudos: 'live', 'hover', 'active', 'visited';
+$linkColor: #333;
+@mixin linkStyle{
+	color: $linkColor;
+	text-decoration: none;
+}
+
+@each $aPseudo in $aPseudos{
+  .aClass{
+		@include linkStyle;
+    &:#{$aPseudo}{
+			@include linkStyle;
+    }
+  }
+}

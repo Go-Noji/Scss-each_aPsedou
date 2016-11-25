@@ -1,0 +1,39 @@
+.aClass {
+  color: #333;
+  text-decoration: none;
+}
+
+.aClass:live {
+  color: #333;
+  text-decoration: none;
+}
+
+.aClass {
+  color: #333;
+  text-decoration: none;
+}
+
+.aClass:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+.aClass {
+  color: #333;
+  text-decoration: none;
+}
+
+.aClass:active {
+  color: #333;
+  text-decoration: none;
+}
+
+.aClass {
+  color: #333;
+  text-decoration: none;
+}
+
+.aClass:visited {
+  color: #333;
+  text-decoration: none;
+}
